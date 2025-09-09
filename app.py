@@ -20,7 +20,7 @@ jobs = [{
     'id': 4,
     'title': 'Data Administrater',
     'location': 'New York, NYC',
-    'salary': '$ 220000'
+    'salary': '$ 210000'
 }]
 
 
@@ -39,4 +39,4 @@ def list_jobs():
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
 
-#gunicorn is a production server for python 
+#gunicorn is a production server for python
